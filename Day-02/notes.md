@@ -1,59 +1,79 @@
-'''-> Arthematics Operaters In Python'''
+➜ Arithmetic Operators in Python
 
-There are 7 types of Arthematic  operater in python.
-1: Addition
-2: Subtraction
-3: Multiplication
-4: Division
-5: Modulu
-6: Floor Division
-7: Exponentital 
+There are 7 types of arithmetic operators in Python:
 
-'''-> Assigment Operaters In PyTHON'''
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Modulus (%)
+Floor Division (//)
+Exponentiation (**)
 
-Opearters That are used to assign a value to variables 
-Simply written as (=)
-Python Also Provide Compund Assignments Op That are perform additional addition.subtraction operaters as well.
-->Using compound assignment operators the reassigning 
-works better
-+=              Add and assign                                
--=              Subtract and assign                                        
-*=              Multiply and assign                                      
-/=              Divide and assign                                
-//=             Floor divide and assign                               
-%=              modulus and assign                            
-**=             Exponentiation and assign     
+These operators are used to perform mathematical calculations.
 
-'''Comparison operator'''
+➜ Assignment Operators in Python
 
-Comparison operators, also called relational operators, are 
-used to compare two values
-Comparison operators will always provide Boolean result that 
-is True and False
-comparison operators are as follow
-==                                        
-!=                                          
->                                          
-<                                           
->=                                         
-<=                                         
-Comparison operators will work with numbers but you can 
-use them with strings as well.
+Assignment operators are used to assign values to variables.
 
-'''Logical operators '''
+The basic assignment operator is:
 
-Logical operators in Python are used to combine multiple 
-conditions and return a Boolean result (True or False)
-There are 3 types of logical operator
-and   - Return True if both condition are Tru
-or      - Return True if at least one condition is True
-not    - Reverse the boolean value
+=
 
-'''Conditional statements '''
+Python also provides compound assignment operators, which combine an operation with assignment.
 
-Conditional statements in Python allow decision-making by 
-executing different blocks of code based on conditions
+Compound Assignment Operators:
+Operator	Meaning
++=	Add and assign
+-=	Subtract and assign
+*=	Multiply and assign
+/=	Divide and assign
+//=	Floor divide and assign
+%=	Modulus and assign
+**=	Exponentiation and assign
 
+These operators make code shorter and easier to write.
+
+➜ Comparison Operators
+
+Comparison operators (also called relational operators) are used to compare two values.
+
+They always return a Boolean result (True or False).
+
+Comparison Operators:
+==   Equal to
+!=   Not equal to
+>    Greater than
+<    Less than
+>=   Greater than or equal to
+<=   Less than or equal to
+
+👉 They work with numbers and strings as well.
+
+➜ Logical Operators
+
+Logical operators are used to combine multiple conditions.
+
+They return a Boolean value (True or False).
+
+Types of Logical Operators:
+and → Returns True if both conditions are True
+or → Returns True if at least one condition is True
+not → Reverses the result (True becomes False, False becomes True)
+➜ Conditional Statements
+
+Conditional statements in Python are used for decision-making.
+
+They allow the program to execute different blocks of code based on conditions.
+
+👉 Example keywords:
+
+if
+elif
+else
+💡 Final Tip:
+
+These are the basic building blocks of Python programming, and they are very important for exams and coding practice
 
 
 
