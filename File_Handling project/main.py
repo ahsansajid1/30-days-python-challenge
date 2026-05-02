@@ -52,9 +52,10 @@ def updatefile():
             print('Press 3 for appending some data into your file :- ')
 
             res =int(input('tell your responce:- '))
-            if res == 1:
-                p2 = Path(name)
-                p.rename(p2)
+            new_name = input("Enter new file name: ")
+            p2 = Path(new_name)
+            p.rename(p2)
+            print("File renamed successfully")
 
             if res == 2:
                 with open(p, 'w')as fs:
@@ -63,7 +64,7 @@ def updatefile():
             if res == 3:
                 with open(p, 'a') as fs:
                     data=input('tell what you want to appned in file -: ')
-                    fs.append(" " +data)
+                    fs.write(" " +data)
     except Exception as err:
         print(f"An error occured as {err}")
 
