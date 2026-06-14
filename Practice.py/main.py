@@ -49,15 +49,16 @@ print(name[1:16:1])
 ''' here are 4 things for type conversion
 1: int, 2: flaot(), str(), bool() '''
 
-b = 13
-print(type(b))
-b = str(b)
-print(type(b))
+# b = 13
+# print(type(b))
+# b = str(b)
+# print(type(b))
 
-entry_point = 1
-print(type(entry_point))
-entry_point = bool(entry_point)
-print(entry_point)
-print(type(entry_point))
+# entry_point = 1
+# print(type(entry_point))
+# entry_point = bool(entry_point)
+# print(entry_point)
+# print(type(entry_point))
+
 
 
